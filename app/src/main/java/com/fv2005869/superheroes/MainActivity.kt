@@ -102,13 +102,6 @@ fun SuperheroesApp() {
 }
 
 
-
-/**
- * Composable that displays a list item containing a dog icon and their information.
- *
- * @param dog contains the data that populates the list item
- * @param modifier modifiers to set to this composable
- */
 @Composable
 fun HeroItem(
     hero: Superhero,
@@ -132,12 +125,7 @@ fun HeroItem(
 
 }
 
-/**
- * Composable that displays a photo of a dog.
- *
- * @param dogIcon is the resource ID for the image of the dog
- * @param modifier modifiers to set to this composable
- */
+
 @Composable
 fun HeroIcon(
     @DrawableRes heroIcon: Int,
@@ -153,13 +141,7 @@ fun HeroIcon(
     )
 }
 
-/**
- * Composable that displays a dog's name and age.
- *
- * @param dogName is the resource ID for the string of the dog's name
- * @param dogAge is the Int that represents the dog's age
- * @param modifier modifiers to set to this composable
- */
+
 @Composable
 fun HeroInformation(
     @StringRes heroName: Int,
@@ -196,3 +178,5 @@ fun SuperheroAppPreviewDark() {
 
     }
 }
+
+/* TODO */
