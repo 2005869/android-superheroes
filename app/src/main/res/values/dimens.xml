@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="list_height_item">72dp</dimen>
+    <dimen name="list_padding_item">16dp</dimen>
+    <dimen name="list_radius">16dp</dimen>
+    <dimen name="image_size">72dp</dimen>
+    <dimen name="cut_radius_image">8dp</dimen>
+    <dimen name="space_between_image_text">16dp</dimen>
+    <dimen name="icon_size">64dp</dimen>
+
+</resources>
